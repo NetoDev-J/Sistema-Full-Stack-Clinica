@@ -1,0 +1,38 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / temporários
+dist/
+build/
+tmp/
+temp/
+
+# Cache
+.cache/
+.eslintcache
+
+# Banco local (se usar SQLite ou similar)
+*.sqlite
+*.db
+
+# Uploads (se tiver)
+uploads/
+
+# Arquivos do sistema
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
