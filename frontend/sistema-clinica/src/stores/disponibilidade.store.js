@@ -42,6 +42,19 @@ export const useDisponibilidadeStore = defineStore('disponibilidade', {
       }
       this.slots = slots
     },
+    async filtrarSlotsDisponiveis(medico_id, clinica_id, data) {
+
+    const { data: consultas } = await api.get('/consultas', {
+      params: { medico_id, data }
+    })
+
+    this.slots = this.slots.filter(slot => {
+      return !consultas.some(c =>
+        c.hora_inicio === slot.inicio || 
+        (c.hora_inicio < slot.fim && c.hora_fim > slot. inicio)
+      )
+    })
+  }
   },
 
   getters: {

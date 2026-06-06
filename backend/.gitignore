@@ -23,11 +23,11 @@ temp/
 .cache/
 .eslintcache
 
-# Banco local (se usar SQLite ou similar)
+# Banco 
 *.sqlite
 *.db
 
-# Uploads (se tiver)
+# Uploads
 uploads/
 
 # Arquivos do sistema
@@ -35,4 +35,3 @@ uploads/
 
 # IDE
 .vscode/
-.idea/

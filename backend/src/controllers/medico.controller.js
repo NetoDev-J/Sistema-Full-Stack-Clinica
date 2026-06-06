@@ -5,6 +5,7 @@ export async function listar(req,res) {
         const resultado = await medicoService.listar();
         res.status(200).json(resultado);
     } catch(erro){
+         console.log('erro medico listar:', erro.message)
         req.status(400).json({erro:erro.message});
     }
     
