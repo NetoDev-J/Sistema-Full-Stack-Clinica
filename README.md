@@ -23,20 +23,22 @@ O Sistema de Gestão de Clínica é uma aplicação web completa que permite o a
 
 | Login | Dashboard |
 |-------|-----------|
-| ![login] (<img width="1889" height="1005" alt="image" src="https://github.com/user-attachments/assets/117a6b9f-8bbd-4376-8033-306b0622f2fb" />
-) | ![dashboard](<img width="1905" height="1008" alt="image" src="https://github.com/user-attachments/assets/2ed937c4-90a1-4b93-8704-7892838b1470" />
-) |
+| ![login](images/img-login.png) | ![dashboard](images/img-dashboard.png) |
 
 | Agendamento | Minhas Consultas |
 |-------------|-----------------|
-| ![agendamento]() | ![consultas]() |
+| ![agendamento](images/img-agendamento.png) | ![consultas](images/img-consultas.png) |
 
 | Gestão de Médicos | Gestão de Clínicas |
 |-------------------|-------------------|
-| ![medicos]() | ![clinicas]() |
+| ![medicos](images/img-medicos.png) | ![clinicas](images/img-clinicas.png) |
 
 ---
+## Video Explicativo
 
+link:
+
+---
 ## Tecnologias
 
 ### Backend
