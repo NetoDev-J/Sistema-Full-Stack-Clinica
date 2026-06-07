@@ -36,7 +36,7 @@ O Sistema de Gestão de Clínica é uma aplicação web completa que permite o a
 ---
 ## Video Explicativo
 
-link:
+link: https://youtu.be/p4Ou8xWZelI
 
 ---
 ## Tecnologias
